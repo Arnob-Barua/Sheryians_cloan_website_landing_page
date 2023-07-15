@@ -1,12 +1,66 @@
-/* css Boilerplate */
-*{
+ css Boilerplate
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
-html,body{
+
+html, body{
     height: 100%;
     width: 100%;
+    
 }
 
+#main {
+    height: 100%;
+    width: 100%;
+    background-color:#c3c281;
+    display: flex;
+}
+
+#part1 {
+    height: 100%;
+    width:28% ;
+   
+}
+
+#part2 {
+    height: 100%;
+    width:64% ;
+    background-image:url('./images/aykut-aktas-kuUpGnrrLjI-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+#part3{
+    height:100%;
+    width:8% ;
+    
+}
+
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(192, 168, 49, 0.233);
+
+}
+ 
+ .text{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    background-color: red;
+    top: 50%;
+    left: 4% ;
+    transform: translate(0 , -50%);
+ }
+
+ .text>h1{
+    font: size 85px; ;
+    font-family: gilroy  ;
+    
+ }
